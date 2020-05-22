@@ -1,0 +1,101 @@
+.chatWelcome {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+.add_icon {
+  position: absolute;
+  left: 0.1em;
+  bottom: 0.2em;
+
+  color: #f5f6fa;
+  font-size: 1.6em;
+  /* padding: 10px; */
+}
+
+.add_avatar_icon {
+  text-align: center;
+  position: absolute;
+  height: 1.5em;
+  width: 4.5em;
+  bottom: 0.1em;
+  right: 8.7em;
+  /* left: 0.2em; */
+  border: 1.5px solid white;
+}
+
+.add-avatar {
+  max-width: 5em;
+  margin: 2em 0;
+  border: 0.5em solid #f5f6fa;
+  background-color: dimgray;
+}
+
+.avatar {
+  position: relative;
+}
+
+.text-welcome {
+  fill: palevioletred;
+}
+
+.chat-icon {
+  font-size: 4em;
+  margin-left: 250px;
+  margin-top: -300px;
+}
+
+.text-chat-welcome {
+  font-size: 1em;
+  text-align: center;
+}
+
+.text-chat-welcome .text {
+  font-size: 0.8em;
+}
+
+.chat-head {
+  background-color: rgba(20, 33, 61, 1);
+  padding: 20px 30px;
+  color: orange;
+}
+
+.chat-body {
+  display: block;
+  text-align: center;
+  background-color: rgba(20, 33, 61, 0.5);
+  padding: 2em 1em;
+  min-width: 30em;
+}
+
+.chat-body label {
+  display: block;
+}
+
+.chat-body button {
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.chat-body h2 {
+  padding-top: 0px;
+
+}
+
+#name {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  box-shadow: none;
+}
+
+.feedback {
+  color: red;
+}
+
+/* .c-on {
+    background-color: rebeccapurple;
+  } */
