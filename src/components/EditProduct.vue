@@ -24,22 +24,8 @@
               v-model="product.Name"
             >
           </div>
-          <div class="form-group col-md-4">
-            <!--  <label for="inputState">Category</label>
-            <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>lamp</option>
-              <option>not a lamp</option>
-            </select>-->
-          </div>
+          <div class="form-group col-md-4"></div>
         </div>
-        <!-- <div class="form-group">
-          <select id="inputState" class="form-control">
-            <option selected>Choose a Picture</option>
-            <option>lamp white</option>
-            <option>lamp black</option>
-          </select>
-        </div>-->
 
         <div class="form-row">
           <div class="form-group col-md-6">
@@ -58,6 +44,9 @@
             <label class="form-check-label" for="gridCheck">in stock</label>
           </div>
         </div>
+        <!-- custom event 
+        
+        -->
         <UploadImage @clicked="onClickChild"/>
         <button type="submit" class="btn btn-primary">Update</button>
       </form>
@@ -85,7 +74,7 @@ export default {
   },
   methods: {
     onClickChild(value) {
-      console.log(value); // someValue
+      console.log(`value url from custom event ${value}`); // someValue
       this.urlImg = value;
     },
     editProduct() {

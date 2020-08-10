@@ -17,22 +17,10 @@
             >
           </div>
           <div class="form-group col-md-4">
-            <!--  <label for="inputState">Category</label>
-             <select id="inputState" class="form-control">
-              <option selected>Choose...</option>
-              <option>lamp</option>
-              <option>not a lamp</option>
-            </select>-->
+           
           </div>
         </div>
-        <!-- <div class="form-group">
-          <select id="inputState" class="form-control">
-            <option selected>Choose a Picture</option>
-            <option>lamp white</option>
-            <option>lamp black</option>
-          </select>
-        </div>-->
-
+       
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputColor">Color</label>

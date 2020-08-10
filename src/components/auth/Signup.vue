@@ -176,9 +176,9 @@ export default {
 .card-center-signup {
   position: absolute;
   top: 5%;
-  left: 50%;
+  /*left: 50%;
   max-width: 400px;
-  margin-left: auto;
+  margin-left: auto;*/
   margin-right: auto;
   padding: 20px;
   margin-top: 10px;

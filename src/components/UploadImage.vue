@@ -72,29 +72,5 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-/* .upload {
-  display: flex;
-  min-height: 100vh;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
-.upload #uploader {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 50%;
-  margin-bottom: 10px;
-}
-.upload .delete-btn {
-  margin-top: 3%;
-}
-.upload .imgSmall {
-  width: 10%;
-  margin-bottom: 10px;
-  clear: left;
-} */
 </style>
