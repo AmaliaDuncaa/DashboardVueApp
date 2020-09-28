@@ -1,6 +1,10 @@
-# lamp-shop
+#  dashboard platform to manage products for small ecommerce websites
 
 > A Vue.js project
+ A full-stack application with Vue JS and Firebase.
+ The platform is using Firebase to store and retrieve data to and from a NoSQL database called Firestore, 
+ as well as authenticate our app's users with the Firebase Auth service.
+ The application is using Firebase Cloud Functions.
 
 ## Build Setup
 
